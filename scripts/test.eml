@@ -1,0 +1,20 @@
+# Testowy skrypt dla języka
+
+# Definicja zmiennych
+set project "MyProject"
+set version "1.0"
+
+# Wyświetlenie informacji
+print project
+print version
+
+# Tworzenie i zarządzanie katalogami
+mkdir test_folder
+cd test_folder
+set file_name "example.txt"
+print file_name
+
+# Powrót do głównego katalogu
+cd ..
+ls
+rm test_folder
